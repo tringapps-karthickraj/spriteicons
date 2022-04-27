@@ -1,0 +1,59 @@
+.ulist{
+    list-style-type: none;
+}
+li{
+    margin-bottom: 10px;
+}
+.twitter {
+    height: 65px;
+    width: 65px;
+    background: url("sprite.png") 269px 117px;;
+}
+.wifi {
+    height: 65px;
+    width: 65px;
+    background: url(sprite.png) 623px 117px;
+
+}
+.google {
+    height: 65px;
+    width: 65px;
+    background: url("sprite.png") 505px 117px;
+}
+.facebook {
+    height: 65px;
+    width: 65px;
+    background: url("sprite.png") 387px 117px;
+}
+.all{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    font-family: sans-serif;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
