@@ -12,7 +12,7 @@ li{
 .wifi {
     height: 65px;
     width: 65px;
-    background: url(sprite.png) 623px 117px;
+    background: url("sprite.png") 623px 117px;
 
 }
 .google {
